@@ -12,10 +12,16 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.orange-color{
+    color: orange;
+}
 h1{
     font-size: 50px;
 }
-section{
+h2{
+    font-size: 38px;
+}
+.flexible-container{
     display: flex;
 }
 .top-banner{
@@ -46,4 +52,22 @@ section{
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+/* experiences area */
+.exp-section{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.dev-card{
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+#full-stack{
+    border-left: 9px solid tomato;
+}
+#baby-stack{
+    border-left: 9px solid blue;
 }
