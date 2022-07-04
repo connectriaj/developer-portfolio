@@ -61,6 +61,7 @@ h2{
 }
 .dev-card{
     box-shadow: 10px 10px 40px gray;
+    /* box-shadow: 60px -16px teal; */
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 10px;
